@@ -3,14 +3,14 @@ package com.alex.hutang.myqq.activities;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.SharedPreferences.Editor;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ImageView;
-import android.content.SharedPreferences.Editor;
 
 import com.alex.hutang.myqq.R;
+import com.alex.hutang.myqq.service.GetMsgService;
 
-import service.GetMsgService;
 
 public class WelcomeActivity extends AppCompatActivity {
     private Context mContext;

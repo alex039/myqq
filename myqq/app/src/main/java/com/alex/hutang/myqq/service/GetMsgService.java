@@ -1,4 +1,4 @@
-package service;
+package com.alex.hutang.myqq.service;
 
 import android.app.Service;
 import android.content.Intent;
